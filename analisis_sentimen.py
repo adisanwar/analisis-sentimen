@@ -10,8 +10,8 @@ querystring = {"screenname": "polisiidol", "count": "10"}  # Modify according to
 
 # Headers containing your RapidAPI key
 headers = {
-    "X-RapidAPI-Key": "5d6dc34b2dmsh972584ee74c36dbp116949jsn1a45ba4a8b30",
-    "X-RapidAPI-Host": "twitter-api45.p.rapidapi.com"
+    "X-RapidAPI-Key": "YOURRAPIDAPIKEY",
+    "X-RapidAPI-Host": "YOURRAPIDAPIHOST"
 }
 
 response = requests.get(url, headers=headers, params=querystring)
